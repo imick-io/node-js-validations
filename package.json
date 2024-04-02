@@ -1,0 +1,28 @@
+{
+  "name": "node-js-validations",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imick-io/node-js-validations.git"
+  },
+  "author": "Michael B.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/imick-io/node-js-validations/issues"
+  },
+  "homepage": "https://github.com/imick-io/node-js-validations#readme",
+  "dependencies": {
+    "express": "^4.19.2",
+    "express-validator": "^7.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
